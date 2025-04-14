@@ -9,7 +9,7 @@
 WSLで以下のように打ってインストールする
 
 ```sh
-curl -fsSL https://ollama.com/install.sh \| sh
+curl -fsSL https://ollama.com/install.sh | sh
 ```
 
 # OllamaでLLMをダウンロード
@@ -43,8 +43,8 @@ cd
 mkdir open-webui
 cd open-webui
 python3 -m venv 仮想環境名(例えばopen-webui)
-python3 -m pip install --upgrade pip
 source 仮想環境名/bin/activate
+python3 -m pip install --upgrade pip
 python3 -m pip install open-webui
 ```
 
