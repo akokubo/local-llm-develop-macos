@@ -6,7 +6,7 @@ https://ollama.com/
 
 # OllamaでLLMをダウンロード
 
-ターみなるで、とりあえず小さいLLaMa 3.2をダウンロード
+ターミナルで、とりあえず小さいLLaMa 3.2をダウンロード
 
 ```sh
 ollama pull llama3.2
