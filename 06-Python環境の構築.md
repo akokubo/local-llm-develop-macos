@@ -5,4 +5,5 @@
 ```sh
 brew install miniconda
 conda init zsh
+source ~/.zshrc
 ```

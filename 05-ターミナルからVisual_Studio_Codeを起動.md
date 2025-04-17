@@ -1,13 +1,18 @@
 # ターミナルからVisual Studio Codeを起動
 
-## ~/.zshrcをVisual Studio Codeで開く
+## ~/.zshrcを作る
 ```sh
-open -a /Applications/Visual Studio Code.app ~/.zshrc
+touch ~/.zshrc
 ```
 
-## ファイルの末尾に以下を追加する
+## ~/.zshrcをVisual Studio Codeで開く
+```sh
+open -a /Applications/Visual\ Studio\ Code.app ~/.zshrc
 ```
-alias code='open -a /Applications/Visual Studio\ Code.app'
+
+## ~/.zshrcの末尾に以下を追加して保存する
+```
+alias code='open -a /Applications/Visual\ Studio\ Code.app'
 ```
 
 ## ~/.zshrcの変更を読み込む
